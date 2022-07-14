@@ -1,12 +1,12 @@
 {
-  "username": "brunoteste",
-  "password": "brunoteste",
+  "username": "postgres",
+  "password": "docker",
 
   "type": "postgres",
   "name": "default",
   "host": "localhost",
   "port": 5432,
-  "database": "ignitechalenge",
+  "database": "queries_challenge",
   "entities": ["./src/modules/**/entities/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
